@@ -1,0 +1,14 @@
+<?php
+class ProjctClass{
+    provate function index(){
+      
+      echo"学会使用github";
+    }
+
+}
+
+$git = new ProjectClass();
+$test = $git->index();
+echo $test;
+
+?>
